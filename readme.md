@@ -166,7 +166,7 @@ curl -X POST http://weatherapp-auth:8080/users \
 -d '{"username": "testuser", "password": "testpassword"}'
 # Response: {"success":"User added successfully"}
 ```
-
+![Weather](./Images/authentication.png)
 ---
 
 ### Weather Service
