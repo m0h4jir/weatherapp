@@ -1,6 +1,6 @@
 # Deploy a Weather-App 🌤️ Using Kubernetes☸️
 
-In this project, I designed and deployed a fully functional application using a microservices architecture, which significantly enhanced my understanding of container orchestration and automated deployment processes with **Kubernetes (minikube)**
+In this project, I designed and deployed a fully functional application using a microservices architecture, which significantly enhanced my understanding of container orchestration and automated deployment processes with **Kubernetes (minikube)**.
 
 ![Weather Topologie](./Images/topologie.gif)
 
@@ -81,7 +81,7 @@ Frontend interface that interacts with both Auth and Weather services.
 ### Cluster Setup (Clean Start)
 
 reset your cluster 
-
+```
 kind delete cluster
 cat <<EOF | kind create cluster --config=-
 kind: Cluster
@@ -102,7 +102,7 @@ nodes:
     hostPort: 443
     protocol: TCP
 EOF
-
+```
 ---
 
 ### MySQL Deployment
