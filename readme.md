@@ -224,7 +224,7 @@ Configure Ingress for both HTTP and HTTPS routing:
 kubectl apply -f ingress.yaml
 ```
 
-![Weather](./Images/weather.gif)
+![Weather](./Images/weather.png)
 
 ## Conclusion
 
